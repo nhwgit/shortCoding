@@ -1,7 +1,7 @@
 # shortCoding
 <img width="703" height="272" alt="image" src="https://github.com/user-attachments/assets/aa4edbe4-d617-4776-8a16-63504713950c" />
 
-https://www.acmicpc.net/short/status/10350
+https://www.acmicpc.net/short/status/10350 <br>
 백준 루비티어 문제중에 가장 많이풀린 문제 숏코딩 1등
 1. 파이썬으로는 117B 언저리가 한계인 것 같다. 한계가 있으면 도구를 바꿔야지. 그래서 Ruby로 해서 16바이트 줄였다.
 2. 온갖 꼼수 많이 써야만한다. 문법상 side-effect도 활용 많이해야하고, 알고리즘 자체를 희한하게 짜야한다.
