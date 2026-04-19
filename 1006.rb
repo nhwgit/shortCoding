@@ -13,4 +13,4 @@ gets.to_i.times{n,w=R[]
 n+=2
 l=R[]<<w
 s=R[]<<w
-p [H[n,w,l,s],(G[s];H[n,w,l,s]),(G[l];H[n,w,l,s]),(G[s];H[n,w,l,s])].min-2}
+p [H[n,w,l,s],G[s]&&H[n,w,l,s],G[l]&&H[n,w,l,s],G[s]&&H[n,w,l,s]].min-2}
