@@ -3,10 +3,8 @@ G=->p{p[0],p[-1]=p[-1],p[0];p}
 H=->n,m,l,s{x=[0,1,*0*n];y=x.dup;z=x.dup
 z[1]=F[l,s,0,0,m]
 (2...n).map{|i|j=i-1;k=i-2
-p=F[l,l,k,j,m]
-q=F[s,s,k,j,m]
-x[i]=[r=z[j]+1,y[j]+p].min
-y[i]=[r,x[j]+q].min
+x[i]=[r=z[j]+1,y[j]+p=F[l,l,k,j,m]].min
+y[i]=[r,x[j]+q=F[s,s,k,j,m]].min
 z[i]=[y[i]+1,x[i]+1,r-1+F[l,s,j,j,m],z[k]+p+q].min}
 z[-1]}
 R=->{gets.split.map &:to_i}
