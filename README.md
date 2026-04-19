@@ -1,6 +1,8 @@
 # shortCoding
-<img width="1154" height="380" alt="image" src="https://github.com/user-attachments/assets/17f55c78-5e8c-4121-8a0c-2ee01de4daea" />
-<img width="1161" height="377" alt="image" src="https://github.com/user-attachments/assets/de164e03-6555-4d8d-ab4e-2fefd58d2aca" />
+<img width="1142" height="377" alt="image" src="https://github.com/user-attachments/assets/e9493ccc-b281-4043-b1fc-f0cec9b48f24" />
+
+<img width="1146" height="389" alt="image" src="https://github.com/user-attachments/assets/fc42f3c0-b942-45f1-acd2-dc65a7aa6e5e" />
+
 
 
 https://www.acmicpc.net/short/status/10350
