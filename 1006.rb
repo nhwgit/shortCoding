@@ -1,9 +1,16 @@
-f=->l,s,r,c,m{l[r]+s[c]>m ?2:1}
-g=->p{p[0],p[-1]=p[-1],p[0]}
-h=->n,m,l,s{a=[0]*n;b=[0]*n;c=[0]*n;a[1]=b[1]=1;c[1]=f[l,s,0,0,m];(2...n).each{|i|j=i-1;k=i-2;a[i]=[c[j]+1,b[j]+f[l,l,k,j,m]].min;b[i]=[c[j]+1,a[j]+f[s,s,k,j,m]].min;c[i]=[b[i]+1,a[i]+1,c[j]+f[l,s,j,j,m],c[k]+f[l,l,k,j,m]+f[s,s,k,j,m]].min};c[-1]}
-gets.to_i.times{
-n,w=gets.split.map &:to_i
+F=->a,b,c,d,e{a[c]+b[d]>e ?2:1}
+G=->p{p[0],p[-1]=p[-1],p[0]}
+H=->n,m,l,s{x=[0]*n;y=[0]*n;z=[0]*n
+x[1]=y[1]=1
+z[1]=F[l,s,0,0,m]
+(2...n).each{|i|j=i-1;k=i-2
+x[i]=[z[j]+1,y[j]+F[l,l,k,j,m]].min
+y[i]=[z[j]+1,x[j]+F[s,s,k,j,m]].min
+z[i]=[y[i]+1,x[i]+1,z[j]+F[l,s,j,j,m],z[k]+F[l,l,k,j,m]+F[s,s,k,j,m]].min}
+z[-1]}
+R=->{gets.split.map &:to_i}
+gets.to_i.times{n,w=R[]
 n+=2
-l=gets.split.map(&:to_i)<<w
-s=gets.split.map(&:to_i)<<w
-p [h[n,w,l,s],(g[s];h[n,w,l,s]),(g[l];h[n,w,l,s]),(g[s];h[n,w,l,s])].min-2}
+l=R[]<<w
+s=R[]<<w
+p [H[n,w,l,s],(G[s];H[n,w,l,s]),(G[l];H[n,w,l,s]),(G[s];H[n,w,l,s])].min-2}
