@@ -8,5 +8,5 @@ y[i]=[z[j]+1,x[j]+F[s,s,k,j,m]].min
 z[i]=[y[i]+1,x[i]+1,z[j]+F[l,s,j,j,m],z[k]+F[l,l,k,j,m]+F[s,s,k,j,m]].min}
 z[-1]}
 R=->{gets.split.map &:to_i}
-gets.to_i.times{n,w=R[];l=R[]<<w;s=R[]<<w
-p [H[n+=2,w,l,s],H[n,w,l,G[s]],H[n,w,G[l],s],H[n,w,l,G[s]]].min-2}
+gets.to_i.times{n,w=R[];l=R[]<<w
+p [H[n+=2,w,l,s=R[]<<w],H[n,w,l,G[s]],H[n,w,G[l],s],H[n,w,l,G[s]]].min-2}
