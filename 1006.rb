@@ -1,6 +1,6 @@
 F=->a,b,c,d,e{a[c]+b[d]>e ?2:1}
 G=->p{p[0],p[-1]=p[-1],p[0];p}
-H=->n,m,l,s{x=[0]+[1]+[0]*n;y=x.dup;z=x.dup
+H=->n,m,l,s{x=[0,1]+[0]*n;y=x.dup;z=x.dup
 z[1]=F[l,s,0,0,m]
 (2...n).map{|i|j=i-1;k=i-2
 p=F[l,l,k,j,m]
