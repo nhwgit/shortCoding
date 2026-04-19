@@ -1,8 +1,12 @@
 # shortCoding
-<img width="703" height="272" alt="image" src="https://github.com/user-attachments/assets/aa4edbe4-d617-4776-8a16-63504713950c" />
+<img width="1154" height="380" alt="image" src="https://github.com/user-attachments/assets/17f55c78-5e8c-4121-8a0c-2ee01de4daea" />
+<img width="1161" height="377" alt="image" src="https://github.com/user-attachments/assets/de164e03-6555-4d8d-ab4e-2fefd58d2aca" />
 
-https://www.acmicpc.net/short/status/10350 <br>
-백준 루비티어 문제중에 가장 많이풀린 문제 숏코딩 1등
+
+https://www.acmicpc.net/short/status/10350
+https://www.acmicpc.net/short/status/1006
+
+백준 온라인 저지의 가장 유명한 문제군에 속하는 1006번문제, 10350번 문제 숏코딩 1위
 1. 파이썬으로는 117B 언저리가 한계인 것 같다. 한계가 있으면 도구를 바꿔야지. 그래서 Ruby로 해서 16바이트 줄였다.
 2. 온갖 꼼수 많이 써야만한다. 문법상 side-effect도 활용 많이해야하고, 알고리즘 자체를 희한하게 짜야한다.
 3. 시간제한에 안걸리는 선에서 최대한 코드를 짧게했다. 예를들어 (i+=1)%n을 i=-~i%n으로 바꾸면 코드는 짧아지지만 시간초과가 발생한다. 아주 미세한 차이지만, 반복문이 1억번씩 돌면서 미세한 차이가 누적되어 시간초과가 발생한 것 같다. 따라서 내부 동작까지 하나하나 신경써가면서 코딩했다. 예를들어 a && b에서 a가 false면 b의 값과 무관하게 a && b가 false다. 따라서 a가 false면 b는 실행되지 않는다. 이런 꼼수를 활용하여 수행시간을 줄이기도 했다.
