@@ -5,8 +5,13 @@
 
 
 
-https://www.acmicpc.net/short/status/10350
-https://www.acmicpc.net/short/status/1006
+10350번 문제: https://www.acmicpc.net/short/status/10350
+
+1006번 문제: https://www.acmicpc.net/short/status/1006
+
+백준 프로필: https://www.acmicpc.net/user/life_is_choice
+
+solved.ac 프로필: https://solved.ac/profile/life_is_choice
 
 백준 온라인 저지의 가장 유명한 문제군에 속하는 1006번문제, 10350번 문제 숏코딩 1위
 1. 파이썬으로는 117B 언저리가 한계인 것 같다. 한계가 있으면 도구를 바꿔야지. 그래서 Ruby로 해서 16바이트 줄였다.
