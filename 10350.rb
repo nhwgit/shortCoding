@@ -1,15 +1,1 @@
-n = gets.to_i
-arr = gets.split.map(&:to_i)
-
-sum_val = arr.sum
-result = 0
-
-n.times do |i|
-  k = 0
-  n.times do |j|
-    k += arr[(i + j) % n]
-    result -= (k / sum_val) if k < 0
-  end
-end
-
-puts result
+n=gets.to_i;a=gets.split.map(&:to_i);s=a.sum;r=0;n.times{|i|k=0;n.times{|j|r-=k/s if(k+=a[(i+j)%n])<0}};p r
