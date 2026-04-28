@@ -5,13 +5,27 @@
 
 
 
-10350번 문제: https://www.acmicpc.net/short/status/10350
+~~10350번 문제: https://www.acmicpc.net/short/status/10350~~
 
-1006번 문제: https://www.acmicpc.net/short/status/1006
+~~1006번 문제: https://www.acmicpc.net/short/status/1006~~
 
-백준 프로필: https://www.acmicpc.net/user/life_is_choice
+~~백준 프로필: https://www.acmicpc.net/user/life_is_choice~~
 
-solved.ac 프로필: https://solved.ac/profile/life_is_choice
+~~solved.ac 프로필: https://solved.ac/profile/life_is_choice~~
+
+<BOJ 서비스 종료로 인한 웹 아카이브 링크>
+
+백준 프로필: https://web.archive.org/web/20260422145931/https://www.acmicpc.net/user/life_is_choice
+
+백준 프로필 상태메시지에 제 이름과 이메일이 적혀있습니다.
+
+10350번 순위: https://web.archive.org/web/20260422150259/https://www.acmicpc.net/short/status/10350
+
+10350번 문제: https://web.archive.org/web/20260422150300/https://www.acmicpc.net/problem/10350
+
+1006번 순위: https://web.archive.org/web/20260422145206/https://www.acmicpc.net/short/status/1006
+
+1006번 문제: https://web.archive.org/web/20260417005718/https://www.acmicpc.net/problem/1006
 
 # BOJ 1006, 10350 Short Coding 1st Place 🏆
 백준 온라인 저지(BOJ) 최상위 난이도 및 유명 문제인 **1006번, 10350번 문제 숏코딩 1위** 달성 코드 및 회고록입니다.
